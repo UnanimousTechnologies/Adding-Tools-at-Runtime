@@ -1,0 +1,5 @@
+local tool = game.ServerStorage:WaitForChild("Sword")
+local player = game.Players:FindFirstChild("Alex")
+
+local clone = tool:Clone()
+clone.Parent = player.Backpack
